@@ -1,16 +1,17 @@
 :root {
-  --main-bg-color: #e5e5e5;
-  --secondary-bg-color: #f5f4fa;
+  --background-color: #f5f4fa;
   --primary-white-color: #ffffff;
   --hero-footer-bg-color: #2f303a;
   --text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --footer-contact-text: rgba(255, 255, 255, 0.6);
+  --header-border-color: #ececec;
+  --border-color: #eeeeee;
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--primary-white-color);
   color: var(--text-color);
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -19,6 +20,8 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
