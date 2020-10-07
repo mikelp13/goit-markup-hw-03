@@ -148,21 +148,59 @@ h6 {
   background-color: var(--accent-color);
 }
 
-/* DESCRIPTION SECTION */
+/* FEATURES SECTION */
 
-.description-title {
+.features-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.features-list {
+  display: flex;
+}
+
+.features-item:not(:last-child) {
+  margin-right: 30px;
+}
+.features-item {
+  width: 270px;
+}
+.features-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
+.features-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 /* ABOUT US SECTION */
+.about-section {
+  padding-bottom: 94px;
+  outline: 2px solid steelblue;
+}
+
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+
+.about-list {
+  display: flex;
+}
+
+.img-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* TEAM SECTION */
