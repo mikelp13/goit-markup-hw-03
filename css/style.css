@@ -116,25 +116,33 @@ h6 {
 
 /* HERO SECTION */
 .hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--hero-footer-bg-color);
+  text-align: center;
 }
 
 .hero-section-title {
+  margin: 0 auto 30px auto;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
 
 .button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87px;
-  text-align: center;
+  line-height: 1.87;
   letter-spacing: 0.06em;
+  text-align: center;
   text-decoration: none;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
