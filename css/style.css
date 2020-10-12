@@ -213,6 +213,10 @@ h6 {
   margin-right: 30px;
 }
 
+.img {
+  display: block;
+}
+
 /* TEAM SECTION */
 .team-list {
   display: flex;
