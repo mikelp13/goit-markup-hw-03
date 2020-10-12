@@ -275,23 +275,20 @@ h6 {
   margin-bottom: 20px;
 }
 
-.footer-address {
-  margin-bottom: 9px;
-  font-style: normal;
-  color: var(--primary-white-color);
+.footer-contact {
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address {
+  color: var(--primary-white-color);
 }
 
 .footer-contact-list .item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.footer-contact {
-  font-size: 14px;
-  line-height: 1.71;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 /* PORTFOLIO PAGE */
